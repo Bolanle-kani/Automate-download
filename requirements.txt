@@ -2,3 +2,4 @@ pandas
 requests
 gdown
 python-dateutil
+regex
