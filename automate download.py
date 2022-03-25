@@ -124,32 +124,3 @@ machine_learning = machine_learning.reset_index()
 machine_learning.drop(columns = "index", inplace = True)
 machine_learning.to_csv("data/Machine learning.csv")
 
-finance = search("onyeka", data)
-finance = finance[['url', 'timestamp', 'message']]
-finance = finance.reset_index()
-finance.drop(columns = "index", inplace = True)
-finance.to_csv("data/Finance.csv")
-
-data_analysis = search("data analysis", data)
-data_analysis = data_analysis[['url', 'timestamp', 'message']]
-data_analysis = data_analysis.reset_index()
-data_analysis.drop(columns = "index", inplace = True)
-data_analysis.to_csv("data/Data analysis.csv")
-
-power_bi = search("powerbi", data)
-power_bi = power_bi[['url','timestamp', 'message']]
-power_bi = power_bi.reset_index()
-power_bi.drop(columns = "index", inplace = True)
-power_bi.to_csv("data/PowerBi.csv")
-
-MS_excel = search("excel", data)
-MS_excel = MS_excel[['url','timestamp','message']]
-MS_excel = MS_excel.reset_index()
-MS_excel.drop(columns = "index", inplace = True)
-MS_excel.to_csv("data/MS excel.csv")
-
-SQL_file = search("sql", data)
-SQL_file = SQL_file[['url','timestamp', 'message']]
-SQL_file = SQL_file.reset_index()
-SQL_file.drop(columns = "index", inplace = True)
-SQL_file.to_csv("data/SQL file.csv")
