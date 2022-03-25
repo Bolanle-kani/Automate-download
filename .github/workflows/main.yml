@@ -7,8 +7,9 @@ on:
     - cron:  "0 11 * * 6"
 
 jobs:
-  scrape-latest:
-    runs-on: ubuntu-latest
+  autoscrape:
+    # The type of runner that the job will run on
+    runs-on: macos-latest
         
         
 
