@@ -6,7 +6,6 @@ on:
   schedule:
     - cron:  "0 11 * * 6"
 
-
 jobs:
   autoscrape:
     # The type of runner that the job will run on
