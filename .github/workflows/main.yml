@@ -36,7 +36,7 @@ jobs:
         git add data/*
         timestamp=$(date -u)
         git commit -am "ACTION Headlines $(date)"
-        git push origin main
+        git push
       env:
         REPO_KEY: ${{secrets.GITHUB_TOKEN}}
         username: github-actions
